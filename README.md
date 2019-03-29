@@ -3,6 +3,8 @@ This calculator is finding out eHP calculations.
 
 :/
 
+(Find me on the Azur Lane Official Discord. Discord ID is Maj. Procrastinator#8734
+
 ## Auto Calc Usage
 
 ![image](https://cdn.discordapp.com/attachments/391458004454604811/561015262175035393/unknown.png)
