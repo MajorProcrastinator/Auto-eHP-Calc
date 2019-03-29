@@ -33,3 +33,6 @@
 
 **03/15/2019**
 * Added some support for Google Sheets
+
+**03/28/2019**
+* Edited formulas (Changed maximum attacker hit rate to 1 from .9)
