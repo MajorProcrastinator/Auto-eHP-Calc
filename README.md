@@ -35,3 +35,6 @@ Find me on the Azur Lane Official Discord. Discord ID is Maj. Procrastinator#873
     * Double Line: .3
     * Diamond: 0
 * If you want to see the background workings of the calculator, you have to unhide those sheets. You can change the values on the Ship Stats sheet with minimal impact, but the Background Tables sheet is different. Don't mess with that one.
+
+
+(Btw, Warspite is a Corgi)
