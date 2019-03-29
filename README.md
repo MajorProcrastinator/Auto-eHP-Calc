@@ -16,12 +16,22 @@ Find me on the Azur Lane Official Discord. Discord ID is Maj. Procrastinator#873
 * To change armor modifiers, first the "Enemy Hull Class," then change "Enemy Shell Type." You'll notice a "General" Modifier. This modifier allows you to ignore armor modifiers.
 * Changing "Time" allows you to manipulate the health gain from the "Lunchkit" (Repair Tools).
 * The "Yes" below "Equipment Skills" represents a toggle. You turn equipment skill calculations off this way. The same can be done for each gear itself.
+* The dark gray cells represent cells that will be auto-filled. Do not touch them.
 
 ## Semi-Auto Calc Usage
 ![image](https://cdn.discordapp.com/attachments/391458004454604811/561017622980984833/unknown.png)
 
 * Every condition set with the usage of the Auto calculator applies here (Armor Modifier, Automatic Ship Stat Fill-in, Toggles, etc.)
-* However, you can change buffs for different synergies and skill combinations,
+* However, you can change buffs for different synergies and skill combinations in the now light gray cells of "EVA Stat Buff," EVA Rate Buff", and "DMG Reduc."
 
 ## Manual Calc Usage
 * Same principle as the Semi-Auto Calc, however you must enter things in every stat field for the calculator to work (skills and buffs can be ignored). Some of the cells have drop down boxes, so keep that in mind while using it,
+
+## Other
+* Enemy Hit stat can vary, however, most people like to use 45 or 50
+* Enemy Luck stat can also vary, but for PvE, it's 0
+* Formation Bonuses have not been applied, but you can throw them into the semi-automatic calculator.
+    * Single Line: -.1
+    * Double Line: .3
+    * Diamond: 0
+* If you want to see the background workings of the calculator, you have to unhide those sheets. You can change the values on the Ship Stats sheet with minimal impact, but the Background Tables sheet is different. Don't mess with that one.
