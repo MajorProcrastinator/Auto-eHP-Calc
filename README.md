@@ -1,7 +1,5 @@
 # Auto eHP Calc
-This calculator is finding out eHP calculations.
-
-Find me on the Azur Lane Official Discord. Discord ID is Maj. Procrastinator#8734
+If you haven't figured it out, this calculator is for finding out eHP calculations.
 
 ## Important Note For Google Sheets (and possibly other non-Excel spreadsheets)
 * If you plan to use this sheet on google sheets, follow this guide: https://imgur.com/a/Mp1OoAj
@@ -35,6 +33,9 @@ Find me on the Azur Lane Official Discord. Discord ID is Maj. Procrastinator#873
     * Double Line: .3
     * Diamond: 0
 * If you want to see the background workings of the calculator, you have to unhide those sheets. You can change the values on the Ship Stats sheet with minimal impact, but the Background Tables sheet is different. Don't mess with that one.
+* If you're github illiterate, just click on the Automatic eHP Calc.xlsx file and hit download at the top right. That's not too hard, right? Or am I having too high hopes for humanity?
 
+
+If I am having too high hopes for humanity, send a message to Maj. Procrastinator#8734 or contact me on the Azur Lane Official Discord #help channel. (Or just hit me up for questions about the calculator. I won't bite. I think.)
 
 (Btw, Warspite is a Corgi)
