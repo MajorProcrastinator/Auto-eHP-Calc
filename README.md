@@ -1,9 +1,10 @@
 # Auto eHP Calc
 This calculator is finding out eHP calculations.
 
-:/
+Find me on the Azur Lane Official Discord. Discord ID is Maj. Procrastinator#8734
 
-(Find me on the Azur Lane Official Discord. Discord ID is Maj. Procrastinator#8734
+## Important Note For Google Sheets (and possibly other spreadsheets)
+* If you plan to use this sheet on google sheets, follow this guideL: https://imgur.com/a/Mp1OoAj
 
 ## Auto Calc Usage
 
