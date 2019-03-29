@@ -6,7 +6,7 @@ If you haven't figured it out, this calculator is for finding out eHP calculatio
 
 ## Auto Calc Usage
 
-![image](https://cdn.discordapp.com/attachments/391458004454604811/561015262175035393/unknown.png)
+![image](https://camo.githubusercontent.com/f04474812d7123bfe6538e50ae3e0d3ae53700a5/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f3339313435383030343435343630343831312f3536313031353236323137353033353339332f756e6b6e6f776e2e706e67)
 
 * Enter the name of the ship in the box below "Name" (Bulins and Purins are named "Bulin" and "Purin" respectively).
 * Append "Kai" to the end of a ship name to get the retrofit stats.
@@ -17,7 +17,7 @@ If you haven't figured it out, this calculator is for finding out eHP calculatio
 * The dark gray cells represent cells that will be auto-filled. Do not touch them.
 
 ## Semi-Auto Calc Usage
-![image](https://cdn.discordapp.com/attachments/391458004454604811/561017622980984833/unknown.png)
+![image](https://camo.githubusercontent.com/3b132c9a964b50b424203388d0fed9f7f5c4de86/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f3339313435383030343435343630343831312f3536313031373632323938303938343833332f756e6b6e6f776e2e706e67)
 
 * Every condition set with the usage of the Auto calculator applies here (Armor Modifier, Automatic Ship Stat Fill-in, Toggles, etc.)
 * However, you can change buffs for different synergies and skill combinations in the now light gray cells of "EVA Stat Buff," EVA Rate Buff", and "DMG Reduc."
