@@ -36,3 +36,6 @@
 
 **03/28/2019**
 * Edited formulas (Changed maximum attacker hit rate to 1 from .9)
+
+**04/07/2019**
+* Fixed bug
