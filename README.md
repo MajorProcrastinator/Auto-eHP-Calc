@@ -25,6 +25,9 @@ If you haven't figured it out, this calculator is for finding out eHP calculatio
 ## Manual Calc Usage
 * Same principle as the Semi-Auto Calc, however you must enter things in every stat field for the calculator to work (skills and buffs can be ignored). Some of the cells have drop down boxes, so keep that in mind while using it,
 
+## Beta Calc
+* This calculator allows you to choose which fields you wish to change (and adds in a cell for HP Buffs for stuff like zombie skills). I haven't done a real check for possible errors yet, so bear with me.
+
 ## Other
 * Enemy Hit stat can vary, however, most people like to use 45 or 50
 * Enemy Luck stat can also vary, but for PvE, it's 0
