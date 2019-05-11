@@ -43,3 +43,7 @@
 **04/20/2019**
 * Fixed bug
 * Added Dewey, Bunker Hill, Yuubari Kai, Seattle (lvl 120), Georgia (lvl 120), Kitakaze (lvl 120), Azuma (lvl 120), Friedrich der Grosse (lvl 120), and Gascogne (lvl 120)
+
+**05/11/2019**
+* Changed documentation to reflect the new calculator
+* Added Kizuna AI boats, Zeppy, Hiei-chan, Akagi-chan, and Hermes-Kai (lvl 120)
