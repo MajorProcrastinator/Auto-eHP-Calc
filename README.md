@@ -29,6 +29,9 @@ If you haven't figured it out, this calculator is for finding out eHP calculatio
 * Green represents better eHP; red is worse.
 * This was quite obvious, wasn't it?
 
+## Legacy
+* This is the old calculator. Use if you're having issues with the new one.
+
 ## Other
 * There are no more jokes. None.
    * I said there were none, don't go looking around the insides of the calc for them!
