@@ -47,3 +47,6 @@
 **05/11/2019**
 * Changed documentation to reflect the new calculator
 * Added Kizuna AI boats, Zeppy, Hiei-chan, Akagi-chan, and Hermes-Kai (lvl 120)
+
+**05/11/2019**
+* I kinda forgot to implement the override function for the Manual/Automatic thing, so that was fixed. Heh...
