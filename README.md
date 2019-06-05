@@ -16,7 +16,7 @@ If you haven't figured it out, this calculator is for finding out eHP calculatio
 * The "Automatic Input" section is where you set the level of the desired ship and the name of the ship. This will input fields set as automatic automatically.
    * To get a retrofitted ship's stats, append "Kai" to the end of the ship's name (i.e., Jintsuu Kai)
    * To get a Bulin or Purin for the calc, just type in "Bulin" or "Purin"
-* The "Map Settings" section is kinda self-explanatory (not shown on the image above becuz I'm too lazy to update it).
+* The "Map Settings" section (not shown on the image above becuz I'm too lazy to update it) is where you put in values related to the map and the enemies on it.
    * The "Time" section is obvious. You can change time to mess with the Repair Toolkit's regen skill.
    * The "Level Advantage" section is where you input the level difference between your ship and the enemy. If you overlevel the enemy, the "Level Advantage" put in should be positive, and if the enemy has higher levels than your ships, then the value should be negative.
    * The "Danger Level" section is where you put in the Danger Level (also known as "Threat Level") in the calculator. If the map's danger level has not been reduced, the value inputted should be 0. If the map's danger level has been reduced 1 danger level, then the value should be one, and so on.
