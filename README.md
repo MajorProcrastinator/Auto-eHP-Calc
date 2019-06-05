@@ -23,7 +23,7 @@ If you haven't figured it out, this calculator is for finding out eHP calculatio
    * The "DNG LVL Status" section is where you note if the map is on safe-mode or not. It's quite self-explanatory.
 * The "Enemy Stats" sections allow you to mess with enemy stats.
    * The Luck and Hit is kinda easy. They're just numbers. Scroll down if you want a link to some PvE values for enemies.
-   * The "Hull Class" and "Shell Type" aren't as obvious. These allow you change what bullets are being fired at your ship (which adjusts the modifiers associated with them). The "General" modifiers are supposed to represent no modifiers (or a modifier of 1).
+   * The "Hull Class" and "Shell Type" aren't as obvious. These allow you change what bullets are being fired at your ship (which adjusts the modifiers associated with them). The "General" modifiers are supposed to represent no modifiers (or a multiplicative modifier of 1).
 * The last row shows what stats the eHP is being calculated with.
 
 ## Newbie Settings
