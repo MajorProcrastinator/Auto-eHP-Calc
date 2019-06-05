@@ -50,3 +50,6 @@
 
 **05/11/2019**
 * I kinda forgot to implement the override function for the Manual/Automatic thing, so that was fixed. Heh...
+
+**06/05/2019**
+* Added Danger Level and Level Advantage Mechanics
