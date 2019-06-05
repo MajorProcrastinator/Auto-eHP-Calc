@@ -22,6 +22,9 @@ If you haven't figured it out, this calculator is for finding out eHP calculatio
    * The "Hull Class" and "Shell Type" aren't as obvious. These allow you change what bullets are being fired at your ship (which adjusts the modifiers associated with them). The "General" modifiers are supposed to represent no modifiers (or a modifier of 1).
 * The last row shows what stats the eHP is being calculated with.
 
+## Newbie Settings
+* If you're a pure noob, just leave *everything* except the Ship Stats sections untouched. This should save you a lot of thinking. If you want to learn more about the other mechanics and details thrown into the calc., scroll through the [wiki](https://azurlane.koumakan.jp) (the Combat page is quite detailed if you're up for the flood of maths and formulas), or just hit up someone on the Official Azur Lane Discord (I'm open for PM's! Maybe.)
+
 ## Calculator
 ![image](https://cdn.discordapp.com/attachments/391458004454604811/576661952940736522/unknown.png)
 
@@ -33,8 +36,7 @@ If you haven't figured it out, this calculator is for finding out eHP calculatio
 * This is the old calculator. Use if you're having issues with the new one.
 
 ## Other
-* There are no more jokes. None.
-   * I said there were none, don't go looking around the insides of the calc for them!
+* No more equipment meme names, unless you want to go looking through the innards of the calculator for them. Memeworthiness not guaranteed.
 * Enemy Hit stat can vary, however, most people like to use 45 or 50
 * Enemy Luck stat can also vary, but for PvE, most of the time, it's 0.
 * You can find out exact enemy stats here: https://al-data.github.io/enemies
