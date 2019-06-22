@@ -55,5 +55,5 @@
 * Added Danger Level and Level Advantage Mechanics
 
 **06/22/2019**
-* Added Bismarck, King George V, U-556, U-73, Z36, Echo, Koln Kai, Southampton, Lena, Clevelad, Li'l Sandy, Z1 Kai, Leipzig Kai, Swiftsure, Curacao Kai, Curlew Kai
+* Added Bismarck, King George V, U-556, U-73, Z36, Echo, Koln Kai, Southampton, Lena, Clevelad, Li'l Sandy, Z1 Kai, Leipzig Kai, Swiftsure, Curacao Kai, and Curlew Kai
 * Fixed visual bug
