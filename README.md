@@ -7,7 +7,7 @@ If you haven't figured it out, this calculator is for finding out eHP calculatio
 
 ## Calc Settings (Section in need of an update. Figure it out by yourself for now)
 
-![image](https://cdn.discordapp.com/attachments/391458004454604811/576657315705520128/unknown.png)
+![image](https://cdn.discordapp.com/attachments/391458004454604811/593565575096041482/unknown.png)
 
 * The top row represents equipment. You can disable calculations for a certain equipment (i.e., if you don't have an Imp. Rudder, you can turn it off to see equipment relevant only to you)
 * The next row represents what kind of input for a specific stat or skill. Setting it as automatic will input fields automatically. Setting it as manual... well, you get it. 
@@ -44,7 +44,7 @@ Regardless, since this calculator is really more of a reference when it comes to
 * If you're a pure noob, just leave *everything* except the Ship Stats sections untouched. This should save you a lot of thinking. If you want to learn more about the other mechanics and details thrown into the calc., scroll through the [wiki](https://azurlane.koumakan.jp) (the Combat page is quite detailed if you're up for the flood of maths and formulas), or just hit up someone on the Official Azur Lane Discord (I'm open for PM's! Maybe.)
 
 ## Calculator
-![image](https://cdn.discordapp.com/attachments/391458004454604811/576661952940736522/unknown.png)
+![image](https://cdn.discordapp.com/attachments/391458004454604811/593565575096041482/unknown.png)
 
 * Uh... There's not much to say...
 * Green represents better eHP; red is worse.
