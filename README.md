@@ -21,10 +21,24 @@ If you haven't figured it out, this calculator is for finding out eHP calculatio
    * The "Level Advantage" section is where you input the level difference between your ship and the enemy. If you overlevel the enemy, the "Level Advantage" put in should be positive, and if the enemy has higher levels than your ships, then the value should be negative.
    * The "Danger Level" section is where you put in the Danger Level (also known as "Threat Level") in the calculator. If the map's danger level has not been reduced, the value inputted should be 0. If the map's danger level has been reduced 1 danger level, then the value should be one, and so on.
    * The "DNG LVL Status" section is where you note if the map is on safe-mode or not. It's quite self-explanatory.
+   * The "Fire" section is where you would turn on an estimation of fire. As for how much estimation is going on, scroll on down!
 * The "Enemy Stats" sections allow you to mess with enemy stats.
    * The Luck and Hit is kinda easy. They're just numbers. Scroll down if you want a link to some PvE values for enemies.
    * The "Hull Class" and "Shell Type" aren't as obvious. These allow you change what bullets are being fired at your ship (which adjusts the modifiers associated with them). The "General" modifiers are supposed to represent no modifiers (or a multiplicative modifier of 1).
 * The last row shows what stats the eHP is being calculated with.
+
+### Notes on Fire
+This is an **estimation**. Fire is weird. It doesn't stack, it has a duration, and the formula has a constant in it. The first estimation comes from the fact I had to ignore the constant (and a bunch of other variables that my calculator doesn't need). if I wanted my eHP Calculator to include fire. The next few require some more explanation. In creating a fire modifier for my eHP calc, I broke it down to 5 parts: FireProbabilityPerBullet (a percent), BulletsFiredPerVolley (not a percent), FireDuration (not a percent), ReloadDuration (not a percent), DamageModifier (percent). The formula for the modifier came out like this:
+
+![image](https://cdn.discordapp.com/attachments/391458004454604811/593205088005128263/unknown.png)
+
+* FireProbabilityPerBullet is simple; it's straight from the wiki. This is accurate.
+* BulletsFiredPerVolley is an integer value I chose based on how many shells the BiS guns of each hull class fires and my estimation of how frequently a gun is used given multiple BiS guns. "PerVolley" is also an inaccurate description. Since some ships (i.e., battleships), have more than one Main Gun Mount, I had to take in account that. Hence BB guns that might fire 3 or 2 shells, will be noted as firing many more than that. CL and CA guns will see similar scalings. This is prone to inaccuracy.
+* ReloadDuration is based off a similar way of estimation, except instead of bullet count, reload time is used. This estimation is also muddled further by my estimation of how much reload stat affects reload time and by my rounding to the nearest whole or half of a number. Also, like how BulletsFiredPerVolley had Main Gun Mount estimations, the ReloadDuration skips factoring in the slight delay between volleys. This one is seriously prone to inaccuracy.
+* FireDuration is a set value given from the wiki: 15 seconds. However, it can be affected by skills and equipment. This is also accurate.
+* DamageModifier is usually 1. However, this can also be affected by skills and equipment. This is also accurate.
+
+Regardless, since this calculator is really more of a reference when it comes to eHP, this Fire Modifier estimation could probably be forgiven. In the future, I might consider making fire modifier that allows custom reload times and bullets fired to insure better accuracy. However, given the already complicated nature of my calculator, I decided against it for now.
 
 ## Newbie Settings
 * If you're a pure noob, just leave *everything* except the Ship Stats sections untouched. This should save you a lot of thinking. If you want to learn more about the other mechanics and details thrown into the calc., scroll through the [wiki](https://azurlane.koumakan.jp) (the Combat page is quite detailed if you're up for the flood of maths and formulas), or just hit up someone on the Official Azur Lane Discord (I'm open for PM's! Maybe.)
