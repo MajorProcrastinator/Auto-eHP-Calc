@@ -28,6 +28,9 @@ If you haven't figured it out, this calculator is for finding out eHP calculatio
 * The last row shows what stats the eHP is being calculated with.
 
 ### Notes on Fire
+
+**Right now, Fire is kinda janky. I forgot to account for misses, so fire dmg seems to be artificially high**
+
 This is an **estimation**. Fire is weird. It doesn't stack, it has a duration, and the formula has a constant in it. The first estimation comes from the fact I had to ignore the constant (and a bunch of other variables that my calculator doesn't need). if I wanted my eHP Calculator to include fire. The next few require some more explanation. In creating a fire modifier for my eHP calc, I broke it down to 5 parts: FireProbabilityPerBullet (a percent), BulletsFiredPerVolley (not a percent), FireDuration (not a percent), ReloadDuration (not a percent), DamageModifier (percent). The formula for the modifier came out like this:
 
 ![image](https://cdn.discordapp.com/attachments/391458004454604811/593205088005128263/unknown.png)
