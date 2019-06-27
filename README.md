@@ -7,7 +7,7 @@ If you haven't figured it out, this calculator is for finding out eHP calculatio
 
 ## Calc Settings (Section in need of an update. Figure it out by yourself for now)
 
-![image](https://cdn.discordapp.com/attachments/391458004454604811/593565575096041482/unknown.png)
+![image](https://cdn.discordapp.com/attachments/391458004454604811/576657315705520128/unknown.png)
 
 * The top row represents equipment. You can disable calculations for a certain equipment (i.e., if you don't have an Imp. Rudder, you can turn it off to see equipment relevant only to you)
 * The next row represents what kind of input for a specific stat or skill. Setting it as automatic will input fields automatically. Setting it as manual... well, you get it. 
@@ -33,7 +33,7 @@ If you haven't figured it out, this calculator is for finding out eHP calculatio
 
 This is an **estimation**. Fire is weird. It doesn't stack, it has a duration, and the formula has a constant in it. The first estimation comes from the fact I had to ignore the constant (and a bunch of other variables that my calculator doesn't need). if I wanted my eHP Calculator to include fire. The next few require some more explanation. In creating a fire modifier for my eHP calc, I broke it down to 5 parts: FireProbabilityPerBullet (a percent), BulletsFiredPerVolley (not a percent), FireDuration (not a percent), ReloadDuration (not a percent), DamageModifier (percent). The formula for the modifier came out like this:
 
-![image](https://cdn.discordapp.com/attachments/391458004454604811/593205088005128263/unknown.png)
+![image](https://cdn.discordapp.com/attachments/391458004454604811/593565575096041482/unknown.png)
 
 * FireProbabilityPerBullet is simple; it's straight from the wiki. This is accurate.
 * BulletsFiredPerVolley is an integer value I chose based on how many shells the BiS guns of each hull class fires and my estimation of how frequently a gun is used given multiple BiS guns. "PerVolley" is also an inaccurate description. Since some ships (i.e., battleships), have more than one Main Gun Mount, I had to take in account that. Hence BB guns that might fire 3 or 2 shells, will be noted as firing many more than that. CL and CA guns will see similar scalings. This is prone to inaccuracy.
