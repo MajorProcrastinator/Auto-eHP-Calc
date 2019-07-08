@@ -2,6 +2,7 @@
 If you haven't figured it out, this calculator is for finding out eHP calculations.
 
 ### Yeah, I know that this documentation is screwed up. I'll update it later. Probably.
+(And fire is still broken)
 
 ## Important Note For Google Sheets (and possibly other non-Excel spreadsheets)
 * If you plan to use this sheet on google sheets, follow this guide: https://imgur.com/a/Mp1OoAj
