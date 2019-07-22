@@ -1,9 +1,6 @@
 # Auto eHP Calc
 If you haven't figured it out, this calculator is for finding out eHP calculations.
 
-### Yeah, I know that this documentation is screwed up. I'll update it later. Probably.
-(And fire is still broken)
-
 ## Important Note For Google Sheets (and possibly other non-Excel spreadsheets)
 * If you plan to use this sheet on google sheets, follow this guide: https://imgur.com/a/Mp1OoAj
   * This set of instructions are outdated, but if you find which cell the guide is pointing you to, follow steps, and input 'Background Tables'!G8:**G19** when it tells you to, then you'll be fine. I'll work on a new set of instructions when I have time (and seeing my procrastinating, that'll take some time. Sorry.)
