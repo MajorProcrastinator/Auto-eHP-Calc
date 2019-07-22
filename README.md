@@ -26,7 +26,7 @@ If you haven't figured it out, this calculator is for finding out eHP calculatio
    * The "DNG LVL Status" section is where you note if the map is on safe-mode or not. It's quite self-explanatory.
 * **Fire Settings -** This section is where you control stuff related to fire.
    * The "Fire" option is where you choose if you want fire on or off.
-   * The "Gun Fire Rate" input is *absolutely necessary* if you want fire to calculator properly. This is the enemy's fire rate.
+   * The "Gun Fire Rate" input is *absolutely necessary* if you want fire to calculate properly. This is the enemy's fire rate.
    * The "Shells on Target" input is *absolutely necessary* for fire calculations. This is how where you input how many of the enemy shells hit your ships in one reload cycle (i.e., Duke of York releases an artillery strike and only 6 shells physically land on the target. You would enter 6 in this example)
 
 ### Notes on Fire
