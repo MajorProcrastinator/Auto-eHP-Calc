@@ -62,3 +62,8 @@
 * Added Fire
 * Changed settings design
 * Fixed broken Danger Level mechanics
+
+**07/22/2019**
+* Fixed Fire
+* Updated documentation
+* Added Emile Bertin Kai, Le Malin, L'Opiniatre, and London Kai
