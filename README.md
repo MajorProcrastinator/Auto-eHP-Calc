@@ -10,51 +10,50 @@ If you haven't figured it out, this calculator is for finding out eHP calculatio
 
 ## Calc Settings (Section in need of an update. Figure it out by yourself for now)
 
-![image](https://cdn.discordapp.com/attachments/391458004454604811/576657315705520128/unknown.png)
+![image](https://cdn.discordapp.com/attachments/391458004454604811/603000555219976193/unknown.png)
 
-* The top row represents equipment. You can disable calculations for a certain equipment (i.e., if you don't have an Imp. Rudder, you can turn it off to see equipment relevant only to you)
-* The next row represents what kind of input for a specific stat or skill. Setting it as automatic will input fields automatically. Setting it as manual... well, you get it. 
-   * The last option in the row can override any manual/automatic option in the previous fields and set every field input (except Heal) as manual or automatic (the default option is "Mixed", where the "All" option will not override anything)
-* The next row is where you can input manual stats, or "Manual Input". If you set a field input as manual in the above row, this is where you manually input stats.
-* The "Automatic Input" section is where you set the level of the desired ship and the name of the ship. This will input fields set as automatic automatically.
+* **Equipment Settings -** You can disable calculations for a certain equipment (i.e., if you don't have an Imp. Rudder, you can turn it off to see equipment relevant only to you)
+* **Ship Stat Input Settings -** You can choose what kind of input you want for a specific stat or skill. Setting it as automatic will input fields automatically. Setting it as manual... well, you get it. 
+   * The "All" can override any manual/automatic option in the previous fields and set every field input as manual or automatic (the default option is "Mixed", where the "All" option will not override anything)
+* **Manual Input -** If you set a field input as manual in the above row, this is where you manually input stats.
+* **Automatic Input -** This section is where you set the level of the desired ship and the name of the ship. This will input fields set as automatic automatically.
    * To get a retrofitted ship's stats, append "Kai" to the end of the ship's name (i.e., Jintsuu Kai)
    * To get a Bulin or Purin for the calc, just type in "Bulin" or "Purin"
-* The "Map Settings" section (not shown on the image above becuz I'm too lazy to update it) is where you put in values related to the map and the enemies on it.
-   * The "Time" section is obvious. You can change time to mess with the Repair Toolkit's regen skill.
-   * The "Level Advantage" section is where you input the level difference between your ship and the enemy. If you overlevel the enemy, the "Level Advantage" put in should be positive, and if the enemy has higher levels than your ships, then the value should be negative.
-   * The "Danger Level" section is where you put in the Danger Level (also known as "Threat Level") in the calculator. If the map's danger level has not been reduced, the value inputted should be 0. If the map's danger level has been reduced 1 danger level, then the value should be one, and so on.
-   * The "DNG LVL Status" section is where you note if the map is on safe-mode or not. It's quite self-explanatory.
-   * The "Fire" section is where you would turn on an estimation of fire. As for how much estimation is going on, scroll on down!
-* The "Enemy Stats" sections allow you to mess with enemy stats.
+* **Enemy Stats -** This section is where you mess with stats and classications related to the attacking enemy.
    * The Luck and Hit is kinda easy. They're just numbers. Scroll down if you want a link to some PvE values for enemies.
    * The "Hull Class" and "Shell Type" aren't as obvious. These allow you change what bullets are being fired at your ship (which adjusts the modifiers associated with them). The "General" modifiers are supposed to represent no modifiers (or a multiplicative modifier of 1).
-* The last row shows what stats the eHP is being calculated with.
+* **Map Settings -** This section is where you put in values related to the map and the enemies on it.
+   * The "Time" option is obvious. You can change time to mess with the Repair Toolkit's regen skill.
+   * The "Level Advantage" option is where you input the level difference between your ship and the enemy. If you overlevel the enemy, the "Level Advantage" put in should be positive, and if the enemy has higher levels than your ships, then the value should be negative.
+   * The "Danger Level" option is where you put in the Danger Level (also known as "Threat Level") in the calculator. If the map's danger level has not been reduced, the value inputted should be 0. If the map's danger level has been reduced 1 danger level, then the value should be one, and so on.
+   * The "DNG LVL Status" section is where you note if the map is on safe-mode or not. It's quite self-explanatory.
+* **Fire Settings -** This section is where you control stuff related to fire.
+   * The "Fire" option is where you choose if you want fire on or off.
+   * The "Gun Fire Rate" input is *absolutely necessary* if you want fire to calculator properly. This is the enemy's fire rate.
+   * The "Shells on Target" input is *absolutely necessary* for fire calculations. This is how where you input how many of the enemy shells hit your ships in one reload cycle (i.e., Duke of York releases an artillery strike and only 6 shells physically land on the target. You would enter 6 in this example)
 
 ### Notes on Fire
-
-**Right now, Fire is kinda janky. I forgot to account for misses, so fire dmg seems to be artificially high**
 
 This is an **estimation**. Fire is weird. It doesn't stack, it has a duration, and the formula has a constant in it. The first estimation comes from the fact I had to ignore the constant (and a bunch of other variables that my calculator doesn't need). if I wanted my eHP Calculator to include fire. The next few require some more explanation. In creating a fire modifier for my eHP calc, I broke it down to 5 parts: FireProbabilityPerBullet (a percent), BulletsFiredPerVolley (not a percent), FireDuration (not a percent), ReloadDuration (not a percent), DamageModifier (percent). The formula for the modifier came out like this:
 
 ![image](https://cdn.discordapp.com/attachments/391458004454604811/593565575096041482/unknown.png)
+(Note, the ReloadDuration and FireDuration are actually switched)
 
 * FireProbabilityPerBullet is simple; it's straight from the wiki. This is accurate.
-* BulletsFiredPerVolley is an integer value I chose based on how many shells the BiS guns of each hull class fires and my estimation of how frequently a gun is used given multiple BiS guns. "PerVolley" is also an inaccurate description. Since some ships (i.e., battleships), have more than one Main Gun Mount, I had to take in account that. Hence BB guns that might fire 3 or 2 shells, will be noted as firing many more than that. CL and CA guns will see similar scalings. This is prone to inaccuracy.
-* ReloadDuration is based off a similar way of estimation, except instead of bullet count, reload time is used. This estimation is also muddled further by my estimation of how much reload stat affects reload time and by my rounding to the nearest whole or half of a number. Also, like how BulletsFiredPerVolley had Main Gun Mount estimations, the ReloadDuration skips factoring in the slight delay between volleys. This one is seriously prone to inaccuracy.
+* BulletsFiredPerVolley is "Shells on Target" in Fire Settings.
+* ReloadDuration is the "Gun Fire Rate" in Fire Settings.
 * FireDuration is a set value given from the wiki: 15 seconds. However, it can be affected by skills and equipment. This is also accurate.
 * DamageModifier is usually 1. However, this can also be affected by skills and equipment. This is also accurate.
-
-Regardless, since this calculator is really more of a reference when it comes to eHP, this Fire Modifier estimation could probably be forgiven. In the future, I might consider making fire modifier that allows custom reload times and bullets fired to insure better accuracy. However, given the already complicated nature of my calculator, I decided against it for now.
 
 ## Newbie Settings
 * If you're a pure noob, just leave *everything* except the Ship Stats sections untouched. This should save you a lot of thinking. If you want to learn more about the other mechanics and details thrown into the calc., scroll through the [wiki](https://azurlane.koumakan.jp) (the Combat page is quite detailed if you're up for the flood of maths and formulas), or just hit up someone on the Official Azur Lane Discord (I'm open for PM's! Maybe.)
 
 ## Calculator
-![image](https://cdn.discordapp.com/attachments/391458004454604811/593565575096041482/unknown.png)
+![image](https://cdn.discordapp.com/attachments/391458004454604811/602998321526865926/unknown.png)
 
+* The top section is where the calculator pull numbers and stuff to calculate values.
 * Uh... There's not much to say...
 * Green represents better eHP; red is worse.
-* This was quite obvious, wasn't it?
 
 ## Legacy
 * This is the old calculator. Use if you're having issues with the new one.
