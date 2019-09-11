@@ -67,3 +67,8 @@
 * Fixed Fire
 * Updated documentation
 * Added Emile Bertin Kai, Le Malin, L'Opiniatre, and London Kai
+
+**09/10/2019**
+* Dark mode memes
+* Partial implementation of Ashen Simulacrum boats
+* Added Enemy CV, Aviation Damage Reduction, the AA stat, the AA Buff Skill, and Aviation Damage Reduction Skill (note: no automatic skills in)
