@@ -1,12 +1,12 @@
-# Auto eHP Calc
-If you haven't figured it out, this calculator is for finding out eHP calculations.
+## Note
+Check out [Enbayft's](https://github.com/Enbayft/Random-AL-Stuff) DPS eHP calc. Since I've been noticeably lazy with updating my calc, I decided to implement my eHP calc into Enbayft's DPS calc, considering his much more regular updates on the thing. 
 
-*sipping intensifies*
-*(I'll roll out an update for this soon. I've been procrastinating for quite a while on adding skills, and that's what's been preventing me from pushing out a relatively major update.)*
+**Loss of Features**
+* Lv. 100 stats (Lost much relevance in after EN received Lv. 120)
+* Automatic Skill Input (I don't think I would've got to this anyways)
 
-## Important Note For Google Sheets (and possibly other non-Excel spreadsheets)
-* If you plan to use this sheet on google sheets, follow this guide: https://imgur.com/a/Mp1OoAj
-  * This set of instructions are outdated, but if you find which cell the guide is pointing you to, follow steps, and input 'Background Tables'!G8:**G19** when it tells you to, then you'll be fine. I'll work on a new set of instructions when I have time (and seeing my procrastinating, that'll take some time. Sorry.)
+**New Features**
+* VH Armor Plating
 
 ## Calc Settings
 
