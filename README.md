@@ -1,8 +1,8 @@
 ## Note
-Check out [Enbayft's](https://github.com/Enbayft/Random-AL-Stuff) DPS eHP calc. Since I've been noticeably lazy with updating my calc, I decided to implement my eHP calc into Enbayft's DPS calc, considering his much more regular updates on the thing. 
+Check out [Enbayft's](https://github.com/Enbayft/Random-AL-Stuff) DPS eHP calc. Since I've been noticeably lazy with updating my calc, I decided to implement my eHP calc into Enbayft's DPS calc, considering how he is much better at getting updates on time.
 
 **Loss of Features**
-* Lv. 100 stats (Lost much relevance in after EN received Lv. 120)
+* Lv. 100 stats (Lost much relevance after EN received Lv. 120)
 * Automatic Skill Input (I don't think I would've got to this anyways)
 
 **New Features**
